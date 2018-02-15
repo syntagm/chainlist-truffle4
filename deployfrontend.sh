@@ -1,5 +1,5 @@
 rsync -r src/ docs/
-rsync build/contracts/ChainList.json docs/
+rsync build/contracts/ChainList.json /docs
 git add .
-git commit "frontend files"
+git commit -m "adding frontend"
 git push
